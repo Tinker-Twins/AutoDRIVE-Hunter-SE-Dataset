@@ -34,3 +34,19 @@ The vehicle dataset comprises the following:
 | **DATA** | timestamp | throttle |	steering | leftTicks | rightTicks |	posX | posY |	posZ | roll |	pitch |	yaw |	speed |	angX |	angY |	angZ | accX |	accY | accZ |
 | -------- | --------- | -------- |	-------- | --------- | ---------- |	---- | ---- |	---- | ---- |	----- |	--- |	----- |	---- |	---- |	---- | ---- |	---- | ---- |
 | **UNIT** | yyyy_MM_dd_HH_mm_ss_fff | norm% | rad | count | count |	m | m |	m | rad |	rad |	rad |	m/s |	rad/s |	rad/s |	rad/s | m/s^2 |	m/s^2 | m/s^2 |
+
+## Vehicle Parameters:
+- Wheelbase (m): 0.55
+- Track width (m): 0.52
+- Center of mass* (m): [x: 0.330, y: 0.000, z: 0.087]
+
+  *Center of mass is measured w.r.t. the center of rear axle.
+- Suspension stiffness (N/m): 22700
+- Suspension damping (Ns/m): 7000
+- Throttle Limit (norm%): 1.0000
+- Steering Limit (rad): 0.5236
+- Linear Velocity Limit (m/s): 3.5611
+- Angular Velocity Limit (rad/s): 2.0708
+- [Throttle vs. Velocity Mapping](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/vehicle_parameters/HunterSE_Throttle_Velocity_Mapping.xlsx):
+
+  ![](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/vehicle_parameters/HunterSE_Throttle_Velocity_Mapping.png)
