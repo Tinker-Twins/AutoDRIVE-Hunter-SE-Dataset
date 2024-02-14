@@ -50,3 +50,16 @@ The vehicle dataset comprises the following:
 - [Throttle vs. Velocity Mapping](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/vehicle_parameters/HunterSE_Throttle_Velocity_Mapping.xlsx):
 
   ![](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/vehicle_parameters/HunterSE_Throttle_Velocity_Mapping.png)
+
+## Automated Data Collection:
+
+The [`open_loop_control.py`](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/open_loop_controller/open_loop_control.py) script makes use of [AutoDRIVE Devkit's](https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit) [Python API](https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit/ADSS%20Toolkit/autodrive_py). The script is capable of selecting a maneuver and its direction, and controlling the vehicle actuators within the prescribed limits in an open-loop setting.
+
+```bash
+python3 open_loop_control.py --maneuver={straight, skidpad, fishhook, slalom} --direction={cw, ccw} --throttle=[-1, 1] --steering=[0, 0.5236] --throttle_noise=[0, 0.001] --steering_noise=[0, 0.001]
+```
+
+**Control Input Variations:**
+
+- **Throttle Gradations (norm%):** 0.2, 0.4, 0.6, 0.8, 1.0 (straight maneuver has additional throttle gradations: 0.1, 0.3, 0.5, 0.7, 0.9)
+- **Steering Gradations (rad):** 0.1047, 0.2094, 0.3142, 0.4189, 0.5236 (straight maneuver does not have any steering gradations)
