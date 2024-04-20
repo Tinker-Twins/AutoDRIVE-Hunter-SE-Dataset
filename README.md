@@ -47,13 +47,13 @@ The vehicle dataset comprises the following:
 - Steering Limit (rad): 0.5236
 - Linear Velocity Limit (m/s): 3.5611
 - Angular Velocity Limit (rad/s): 2.0708
-- [Throttle vs. Velocity Mapping](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/vehicle_parameters/HunterSE_Throttle_Velocity_Mapping.xlsx):
+- [Throttle vs. Velocity Mapping](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/on-road-dataset/vehicle_parameters/HunterSE_Throttle_Velocity_Mapping.xlsx):
 
-  ![](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/vehicle_parameters/HunterSE_Throttle_Velocity_Mapping.png)
+  ![](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/on-road-dataset/vehicle_parameters/HunterSE_Throttle_Velocity_Mapping.png)
 
 ## Automated Data Collection:
 
-The [`open_loop_control.py`](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/open_loop_controller/open_loop_control.py) script makes use of [AutoDRIVE Devkit's](https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit) [Python API](https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit/ADSS%20Toolkit/autodrive_py). The script is capable of selecting a maneuver and its direction, and controlling the vehicle actuators within the prescribed limits in an open-loop setting.
+The [`open_loop_control.py`](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/on-road-dataset/open_loop_controller/open_loop_control.py) script makes use of [AutoDRIVE Devkit's](https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit) [Python API](https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit/ADSS%20Toolkit/autodrive_py). The script is capable of selecting a maneuver and its direction, and controlling the vehicle actuators within the prescribed limits in an open-loop setting.
 
 ```bash
 python3 open_loop_control.py --maneuver={straight, skidpad, fishhook, slalom} --direction={cw, ccw} --throttle=[-1, 1] --steering=[0, 0.5236] --throttle_noise=[0, 0.001] --steering_noise=[0, 0.001]
@@ -91,7 +91,7 @@ python3 open_loop_control.py --maneuver={straight, skidpad, fishhook, slalom} --
 
 ## Data Visualization
 
-[Single Maneuver Data Visualization](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/data_visualization/data_visualization_single.ipynb)
+[Single Maneuver Data Visualization](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/on-road-dataset/data_visualization/data_visualization_single.ipynb)
 
 <table>
 <thead>
@@ -116,7 +116,7 @@ python3 open_loop_control.py --maneuver={straight, skidpad, fishhook, slalom} --
 </tbody>
 </table>
 
-[Collective Maneuver Data Visualization](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/main/data_visualization/data_visualization_collective.ipynb)
+[Collective Maneuver Data Visualization](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/on-road-dataset/data_visualization/data_visualization_collective.ipynb)
 
 <table>
 <thead>
