@@ -53,8 +53,8 @@ The vehicle dataset comprises the following:
 
 **Control Input Variations:**
 
-- **Throttle Gradations (norm%):** 0.2, 0.4, 0.6, 0.8, 1.0 (straight maneuver has additional throttle gradations: 0.1, 0.3, 0.5, 0.7, 0.9)
-- **Steering Gradations (rad):** 0.1047, 0.2094, 0.3142, 0.4189, 0.5236 (straight maneuver does not have any steering gradations)
+- **Throttle Gradations (norm%):** 0.1, 0.2, 0.3, 0.4, 0.5 (5 runs per gradation)
+- **Steering Gradations (rad):** [-0.5236, 0.5236] (resolution resultant of input method)
 
 ## Data Visualization
 
