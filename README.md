@@ -2,6 +2,8 @@
 
 ### Dynamics and Perception Dataset of "Hunter SE" Robot
 
+> **Note**: For accessing the off-road dataset, switch to the [`off-road-dataset`](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/tree/off-road-dataset) branck of the repository.
+
 <table>
 <thead>
   <tr>
