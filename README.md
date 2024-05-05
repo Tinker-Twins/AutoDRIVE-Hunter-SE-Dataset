@@ -19,7 +19,7 @@
     <td align="center"><img src="steering_10_hz/steering.gif"></td>
   </tr>
   <tr>
-    <td align="center">Joystick Teleoperation</td>
+    <td align="center">Gamepad Teleoperation</td>
     <td align="center">Driving Rig Teleoperation</td>
   </tr>
 </tbody>
@@ -63,22 +63,22 @@ The vehicle dataset comprises the following:
 <table>
 <thead>
   <tr>
-    <th align="center"><img src="data_visualization/straight_maneuver_single.png"></th>
-    <th align="center"><img src="data_visualization/skidpad_maneuver_single.png"></th>
+    <th align="center"><img src="data_visualization/keyboard_single.png"></th>
+    <th align="center"><img src="data_visualization/mouse_single.png"></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td align="center">Straight Maneuver</td>
-    <td align="center">Skidpad Maneuver</td>
+    <td align="center">Keyboard Teleoperation</td>
+    <td align="center">Mouse Teleoperation</td>
   </tr>
   <tr>
-    <td align="center"><img src="data_visualization/fishhook_maneuver_single.png"></td>
-    <td align="center"><img src="data_visualization/slalom_maneuver_single.png"></td>
+    <td align="center"><img src="data_visualization/joystick_single.png"></td>
+    <td align="center"><img src="data_visualization/steering_single.png"></td>
   </tr>
   <tr>
-    <td align="center">Fishhook Maneuver</td>
-    <td align="center">Slalom Maneuver</td>
+    <td align="center">Gamepad Teleoperation</td>
+    <td align="center">Driving Rig Teleoperation</td>
   </tr>
 </tbody>
 </table>
@@ -88,28 +88,28 @@ The vehicle dataset comprises the following:
 <table>
 <thead>
   <tr>
-    <th align="center"><img src="data_visualization/straight_maneuver_collective.png"></th>
-    <th align="center"><img src="data_visualization/skidpad_maneuver_collective.png"></th>
+    <th align="center"><img src="data_visualization/keyboard_collective.png"></th>
+    <th align="center"><img src="data_visualization/mouse_collective.png"></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td align="center">Straight Maneuver</td>
-    <td align="center">Skidpad Maneuver</td>
+    <td align="center">Keyboard Teleoperation</td>
+    <td align="center">Mouse Teleoperation</td>
   </tr>
   <tr>
-    <td align="center"><img src="data_visualization/fishhook_maneuver_collective.png"></td>
-    <td align="center"><img src="data_visualization/slalom_maneuver_collective.png"></td>
+    <td align="center"><img src="data_visualization/joystick_collective.png"></td>
+    <td align="center"><img src="data_visualization/steering_collective.png"></td>
   </tr>
   <tr>
-    <td align="center">Fishhook Maneuver</td>
-    <td align="center">Slalom Maneuver</td>
+    <td align="center">Gamepad Teleoperation</td>
+    <td align="center">Driving Rig Teleoperation</td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><img src="data_visualization/all_maneuvers_collective.png"></td>
+    <td align="center" colspan="2"><img src="data_visualization/all_modalities_collective.png"></td>
   </tr>
   <tr>
-    <td align="center" colspan="2">All Maneuvers</td>
+    <td align="center" colspan="2">All Input Modalities</td>
   </tr>
 </tbody>
 </table>
