@@ -5,22 +5,22 @@
 <table>
 <thead>
   <tr>
-    <th align="center"><img src="straight_30_hz/straight.gif"></th>
-    <th align="center"><img src="skidpad_30_hz/skidpad.gif"></th>
+    <th align="center"><img src="keyboard_10_hz/keyboard.gif"></th>
+    <th align="center"><img src="mouse_10_hz/mouse.gif"></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td align="center">Straight Maneuver</td>
-    <td align="center">Skidpad Maneuver</td>
+    <td align="center">Keyboard Teleoperation</td>
+    <td align="center">Mouse Teleoperation</td>
   </tr>
   <tr>
-    <td align="center"><img src="fishhook_30_hz/fishhook.gif"></td>
-    <td align="center"><img src="slalom_30_hz/slalom.gif"></td>
+    <td align="center"><img src="joystick_10_hz/joystick.gif"></td>
+    <td align="center"><img src="steering_10_hz/steering.gif"></td>
   </tr>
   <tr>
-    <td align="center">Fishhook Maneuver</td>
-    <td align="center">Slalom Maneuver</td>
+    <td align="center">Joystick Teleoperation</td>
+    <td align="center">Driving Rig Teleoperation</td>
   </tr>
 </tbody>
 </table>
