@@ -64,31 +64,6 @@ python3 open_loop_control.py --maneuver={straight, skidpad, fishhook, slalom} --
 - **Throttle Gradations (norm%):** 0.2, 0.4, 0.6, 0.8, 1.0 (straight maneuver has additional throttle gradations: 0.1, 0.3, 0.5, 0.7, 0.9)
 - **Steering Gradations (rad):** 0.1047, 0.2094, 0.3142, 0.4189, 0.5236 (straight maneuver does not have any steering gradations)
 
-## Maneuver Visualization
-
-<table>
-<thead>
-  <tr>
-    <th align="center"><img src="frame_extractor/straight/mean_of_min_max_stacks.png"></th>
-    <th align="center"><img src="frame_extractor/skidpad/mean_of_min_max_stacks.png"></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td align="center">Straight Maneuver</td>
-    <td align="center">Skidpad Maneuver</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="frame_extractor/fishhook/mean_of_min_max_stacks.png"></td>
-    <td align="center"><img src="frame_extractor/slalom/mean_of_min_max_stacks.png"></td>
-  </tr>
-  <tr>
-    <td align="center">Fishhook Maneuver</td>
-    <td align="center">Slalom Maneuver</td>
-  </tr>
-</tbody>
-</table>
-
 ## Data Visualization
 
 [Single Maneuver Data Visualization](https://github.com/Tinker-Twins/AutoDRIVE-Hunter-SE-Dataset/blob/off-road-dataset/data_visualization/data_visualization_single.ipynb)
